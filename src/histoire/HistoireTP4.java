@@ -21,7 +21,7 @@ public class HistoireTP4 {
 		// 2.1 b
 		System.out.println();
 		System.out.println("Scénario 2 : Tester commercant");
-		Commercant macro = new Commercant("Marco", "", 54);
+		Commercant macro = new Commercant("Marco", 54);
 		macro.direBonjour();
 		macro.seFaireExtorquer();
 		macro.rcevoir(15);
