@@ -14,6 +14,16 @@ public class Yakuza extends Humain {
 	
 	
 	
+	// TP 5 Q2-a
+	@Override
+	public void direBonjour() {
+		super.direBonjour();
+		this.parler("Mon clan est celui de "+this.clan);
+	}
+
+
+
+
 	public int getReputation() {
 		return reputation;
 	}
